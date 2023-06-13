@@ -1,4 +1,4 @@
-from .version import __version__, __version_info__
+from .version import __version__
 
 from .fields import GM2MField
 

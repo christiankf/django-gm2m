@@ -20,5 +20,5 @@ class User(models.Model):
         app_label = 'mig_add_gm2mfield'
 
     name = models.CharField(blank=True, default='', max_length=100)
-    # mig1: items = GM2MField(Project)
+    items = GM2MField(Project)
     # mig2: items = GM2MField(Task, Project)

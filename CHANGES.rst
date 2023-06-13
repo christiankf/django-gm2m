@@ -7,6 +7,13 @@ key:
 | \- deletion
 
 
+v1.1.1.post1+kf (10-05-2023)
+-------------------
+
+| \* Make compatible with Django >= 3.2
+| \* Add black styling
+
+
 v1.1.1 (05-10-2020)
 -------------------
 

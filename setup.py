@@ -11,16 +11,6 @@ import os
 
 # imports __version__ variable
 exec(open('gm2m/version.py').read())
-dev_status = __version_info__[3]
-
-if dev_status == 'alpha' and not __version_info__[4]:
-    dev_status = 'pre'
-
-DEV_STATUS = {'pre': '2 - Pre-Alpha',
-              'alpha': '3 - Alpha',
-              'beta': '4 - Beta',
-              'rc': '4 - Beta',
-              'final': '5 - Production/Stable'}
 
 # setup function parameters
 setup(
@@ -37,7 +27,7 @@ setup(
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
-        'Development Status :: %s' % DEV_STATUS[dev_status],
+        'Development Status :: 5 - Production/Stable',
         'Framework :: Django',
         'Environment :: Other Environment',
     ],
